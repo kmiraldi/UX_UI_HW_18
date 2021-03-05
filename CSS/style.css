@@ -41,3 +41,41 @@ ul {
     vertical-align: top;
     padding: 25px;
 }
+
+.mySkills {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+<!-- My UX Skills section coded using CSS flex -->
+
+
+.flexContainer {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ul {
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+      /* Responsive layout - makes a one column layout instead of a two-column layout */
+      @media (max-width: 800px) {
+        .flex-container {
+          flex-direction: column;
+        }
+      }
+
+      .myWork {
+        width: 50%;
+        margin: 0 auto;
+        padding: 25px;
+    }
